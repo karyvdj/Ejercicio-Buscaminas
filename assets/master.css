@@ -1,0 +1,35 @@
+body{
+  font-family: Helvetica;
+  color: #F59810;
+  text-align: center;
+  background: #FDF6EC;
+}
+header{
+  background: #FCE8CB;
+  padding: 10px;
+}
+table{
+  text-align: center;
+  color: #8A9999;
+}
+td{
+  background-color: #9BF1E3;
+  height: 50px;
+  width: 50px;
+}
+button{
+  margin: 20px;
+}
+button{
+  border-radius: 10px;
+  font-family: arial;
+  font-size: 15px;
+  background: #C4DD0D;
+  border: 0px;
+  padding: 5px;
+  color: #495B0E;
+}
+img{
+  width: 40px;
+  height: 40px;
+}

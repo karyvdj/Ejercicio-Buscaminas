@@ -2,7 +2,8 @@
  var celdaNumero= document.getElementsByClassName("numero");
  var celdaColor = document.getElementsByClassName('color');
  var celdaBomba = document.getElementsByClassName('bomba');
-
+ var reinicio = document.getElementById('reinicio');
+ reinicio.addEventListener("click", reinicioJuego);
 
  for(i = 0; i < celdaNumero.length; i++){
    celdaNumero[i].addEventListener("click", clickCeldaNumero)
@@ -27,7 +28,7 @@
 
  function clickCeldaBomba() {
    var img = document.createElement("img");
-   img.src = "img/bombs.png";
+   img.src = "assets/img/bombs.png";
    img.setAttribute( "width", "45px");
    img.setAttribute( "height", "45px");
    this.appendChild(img);
@@ -49,4 +50,7 @@
      celdaColor[i].removeEventListener("click", clickCeldaColor)
    }
 
+ }
+ function reinicioJuego(){
+   location.reload();
  }
